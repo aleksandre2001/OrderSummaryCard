@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700;900&display=swap");
+
+html {
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  padding-top: 100px;
+}
+
+.container {
+  width: 80%;
+  max-width: 450px;
+  min-width: 327px;
+
+  background: #ffffff;
+
+  border-radius: 20px;
+  margin: 0 auto;
+  overflow: hidden;
+  text-align: center;
+  padding-bottom: 32px;
+}
+
+#hero {
+  width: 100%;
+}
+
+h1 {
+  margin-top: 32px;
+  text-align: center;
+
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 22px;
+  line-height: 29px;
+  color: #1f2e55;
+}
+
+.hint {
+  margin-top: 16px;
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  /* or 167% */
+
+  text-align: center;
+
+  color: #717fa6;
+}
+
+.offer-container {
+  padding: 16px;
+  margin: 24px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background: #f7f9ff;
+  border-radius: 11px;
+}
+
+h3 {
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: #1f2e55;
+}
+
+#annual-plan-box p {
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+  color: #717fa6;
+}
+#annual-plan-box {
+  margin-left: 20px;
+}
+
+#change-btn{
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 17px;
+  text-decoration-line: underline;
+
+  color: #382ae1;
+}
+#change-btn:active{
+  color: #766CF1;
+  text-decoration: none;
+}
+
+.music-plan {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+#submit {
+  display: block;
+  margin: 24px 0;
+  padding: 15px 0;
+
+  height: 50px;
+
+  border-radius: 11px;
+  background: #382ae1;
+  box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 15px;
+  color: #ffffff;
+  text-decoration: none;
+}
+#submit:active{
+  background:#766CF1;
+
+
+}
+
+#cancel-btn {
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 20px;
+  /* identical to box height */
+
+  color: #717fa6;
+  text-decoration: none;
+
+  cursor: pointer;
+}
+
+#cancel-btn:active{
+  color: #1F2E55;
+
+}
+
+.content{
+  margin: 0 auto;
+  border: 1px solid red;
+  width: 80%;
+}
